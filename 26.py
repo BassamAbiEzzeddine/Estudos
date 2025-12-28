@@ -1,0 +1,5 @@
+f = input('digite uma frase qualquer: ').strip()
+fl = f.lower()
+print('Quantidade de A = {}'.format(fl.count('a')))
+print('Primeiro A = {}'.format(fl.find('a')+1))
+print('Ultimo A = {}'.format(fl.rfind('a')+1))
