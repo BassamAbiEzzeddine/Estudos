@@ -9,5 +9,4 @@ elif len(lt) > 4:
 else:
     print("Numero digitado contem:")
     for i, digito in enumerate(lt):
-       print(f"{digito} {posicoes[-len(lt)+i]}")
-       
+        print(f"{digito} {posicoes[-len(lt)+i]}")

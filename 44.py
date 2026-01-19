@@ -7,8 +7,7 @@ cred = ""
 
 if formadepagamento == 1:
     print(
-        "Valor a ser pago = {}".format(
-            valordoproduto - (valordoproduto * (10 / 100)))
+        "Valor a ser pago = {}".format(valordoproduto - (valordoproduto * (10 / 100)))
     )
 elif formadepagamento == 2:
     cred = int(input("Insira em quantas vezes sera o parcelamento: "))

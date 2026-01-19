@@ -1,14 +1,12 @@
-replay=1
-primeirotermo=int(input('Insira o primeiro termo da sua PA: '))
-razao=int(input('Insira a razao da sua PA: '))
-termos=int(input('Insira a quantidade de termos da sua PA: '))
-contas=primeirotermo
-while replay!=0:
-    while termos!=0:
-        print (contas, end=" ")
-        contas=contas+razao
-        termos=termos-1
-    replay=int(input('\nQuer ver mais algum termos da sua PA: '))
-    termos=replay    
-
-        
+replay = 1
+primeirotermo = int(input("Insira o primeiro termo da sua PA: "))
+razao = int(input("Insira a razao da sua PA: "))
+termos = int(input("Insira a quantidade de termos da sua PA: "))
+contas = primeirotermo
+while replay != 0:
+    while termos != 0:
+        print(contas, end=" ")
+        contas = contas + razao
+        termos = termos - 1
+    replay = int(input("\nQuer ver mais algum termos da sua PA: "))
+    termos = replay

@@ -1,8 +1,12 @@
-numero=int(input('Insira o numero para achar seu fatorial: '))
-multiplos=numero-1
-conta=0
-while multiplos!=0:
-    conta=numero*multiplos
-    numero=conta
-    multiplos=multiplos-1
-print('O resultado e {}'.format(numero))
+numero = int(input("Insira o numero para achar seu fatorial: "))
+multiplos = numero
+fatorial = 1
+while multiplos > 0:
+    print("{}".format(multiplos), end=" ")
+    if multiplos > 1:
+        print("x", end=" ")
+    else:
+        print("=", end=" ")
+    fatorial *= multiplos
+    multiplos -= 1
+print("{}".format(fatorial))
