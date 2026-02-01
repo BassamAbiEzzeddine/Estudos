@@ -26,7 +26,7 @@ while conta != 5:
         print("\nInsira novos numeros!!!\n")
         valor1 = int(input("Insira o primeiro valor: "))
         valor2 = int(input("Insira o segundo valor: "))
-    elif conta not in "12345":
+    elif conta not in (1, 2, 3, 4, 5):
         print("Opcao invalida digite novamente")
 print("=-" * 10)
 
