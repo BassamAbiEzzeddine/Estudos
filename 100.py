@@ -20,4 +20,3 @@ def somaPar(a):
 numeros=[]
 sortear(numeros)
 somaPar(numeros)
-
